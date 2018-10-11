@@ -1,0 +1,42 @@
+
+body {
+    font-family: Roboto;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color:#202f57;
+}
+header, main, footer {
+    padding: 30px 20px;
+    background-color: #d2d2d2;
+}
+header h1 {
+    text-align: center;
+    font-size: 3em;
+}
+p {
+    font-family: 'PT Serif';
+}
+section {
+    border: black solid 1px;
+    background-color: #6993b7;
+    padding: 5px;
+    margin: 10px 0;
+}
+img {
+    max-width: 100%;
+}
+.feat-list {
+    font-family: 'PT Serif';
+}
+#nav-list {
+    text-align: center;
+    padding-left: 0;
+}
+#nav-list li {
+    display: inline-block;
+}
+#nav-list li + li:before {
+    content: " | ";
+    padding: 0 10px;
+}
